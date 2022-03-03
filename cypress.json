@@ -1,3 +1,11 @@
 {
-  "testFiles": "**/*.feature"
+  "baseUrl": "https://staging.taskworld.net",
+  "chromeWebSecurity": false,
+  "env": {
+    "validUsername": "c88a5481-3958-4876-ba6d-297a020409ed@tester.taskworld.com",
+    "validPwd": "8LCd6+b7fRhZLYV[cq6U",
+    "invalidUsername": "phat_invalid@gmail.com",
+    "invalidPwd": "invalidpassword",
+    "invalidEmailPwdErrMsg": "Invalid email or password."
+  }
 }

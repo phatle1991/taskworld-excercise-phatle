@@ -7,7 +7,7 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress open --browser chrome",
     "cyrun": "node_modules/.bin/cypress run --browser chrome"
   },
   "keywords": [
@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "cosmiconfig": "^6.0.0",
-    "cypress": "^3.6.0",
+    "cypress": "^3.8.3",
     "cypress-cucumber-preprocessor": "^1.16.2"
   }
 }
